@@ -1,0 +1,69 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+._*
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.hypothesis/
+
+# Python coverage and build output
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.egg-info/
+build/
+
+# Node.js dependencies and package-manager logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Frontend and other generated build output
+dist/
+out/
+.vite/
+.cache/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.local
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*~
+
+# Local runtime data
+*.sqlite3
+*.db
+backend/uploads/
